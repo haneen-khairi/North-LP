@@ -129,3 +129,37 @@ footer .contact-us{
 color:#fff;
 font-size:16px;
 }
+.d-flex-center{
+    display: grid;
+    grid-template-columns: 15% 24% 24% 24%;
+    column-gap: 25px;
+    text-align: center;
+    align-items: start;
+    padding: 10px 0px;
+}
+.d-flex-colomn{
+    margin:20px auto; 
+    display: grid;
+    grid-row:  4;
+    column-row: 50px;
+    text-align: center;
+}
+.border-red{
+    border: 1px solid red;
+}
+.align-center{
+    align-items: center;
+}
+.table-part>div{
+    width: 100%;
+    padding: 5px;
+}
+.table-part-icon i{
+font-size: 3rem;
+}
+.table-part p{
+font-size:13px;
+}
+.fx-2{
+    font-size:20px!important;
+}

@@ -59,3 +59,45 @@
       left: 0;
     }
   }
+  @media(max-width:768px) {
+    h5 {
+      font-size: 1.3rem;
+  }
+    .d-flex-center {
+      display: grid;
+      grid-template-columns: 10% 24% 24% 24%;
+      column-gap: 16px;
+      text-align: center;
+      align-items: start;
+      padding: 10px 0px;
+  }
+  .table-part p {
+    font-size: 8px;
+}
+    strong { 
+      font-size: 14px;
+  }
+  .video-bg { 
+    min-height: 500px;
+  }
+  header .intro-text .intro-heading { 
+    font-size: 30px;
+  }
+  .about-program-text{
+    margin:20px auto;
+  }
+  p { 
+    line-height: 1.85;
+}
+nav { 
+  justify-content: space-between;
+  flex-direction: row; 
+  padding: 5px 10px;
+}
+.checkbtn{
+  margin-right:15px;
+}
+.point-card { 
+  min-height: 100%;
+}
+  }

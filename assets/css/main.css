@@ -6,16 +6,26 @@
     text-decoration: none;
     list-style: none; 
 }
-
+h5 {
+    font-size: 1.65rem;
+}
+strong{
+    color:#ee2226;
+    font-size:18px;
+}
+strong>span{
+    color:#606060;
+    font-size:11px;
+}
 p {
     font-size: 14px;
+    color:#000;
     line-height: 1.75;
 }
-
-p.large {
-    font-size: 16px;
+p>span{
+    color:#000;
 }
-
+  
 a,
 a:hover,
 a:focus,
@@ -159,4 +169,7 @@ nav {
 
 #check {
     display: none;
+}
+.m-x2{
+    margin:3.5rem auto;
 }
