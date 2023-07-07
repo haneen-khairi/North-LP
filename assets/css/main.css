@@ -1,0 +1,162 @@
+* {
+    direction: rtl !important;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none; 
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+.btn-xl {
+    padding: 10px 40px;
+    border-color: #ee2226;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ee2226;
+
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    box-shadow: 0px 3px 10px #548c9b, 0px 10px 15px #ee2226;
+    transition: box-shadow 0.2s ease-in-out;
+    color: #fff;
+} 
+ 
+header {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+footer {
+    padding: 25px 0;
+    color: #fff;
+    background: #000;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+h2 {
+    font-size: 3rem;
+    margin:15px 0px;
+}
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+.navbar-nav>li {
+    float: right;
+}
+
+nav {
+    height: 65px;
+    width: 100%;
+    background: #00000047;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 65px;
+    padding: 10px 0px;
+}
+
+.navlinks {
+    float: right;
+    margin-right: 20px;
+}
+
+.navlinks li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.navlinks li a {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.navlinks a.active,
+.navlinks a:hover {
+    background: #e74c3c;
+}
+
+.checkbtn {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}

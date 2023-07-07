@@ -1,0 +1,61 @@
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px; 
+        font-size: 40px;
+        font-style: italic; 
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 1.4;
+    }
+}
+@media (max-width: 1000px) {
+    label.logo {
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    .navlinks li a {
+      font-size: 16px;
+    }
+  }
+@media (max-width: 900px) {
+    .checkbtn {
+      display: block;
+    }
+    .navlinks {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 65px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+    }
+    .navlinks li {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    .navlinks li a {
+      font-size: 20px;
+    }
+    li a:hover,
+    a.active {
+      color: red;
+      background: none;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
+  }
