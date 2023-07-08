@@ -110,11 +110,11 @@ font-weight: bold;
 }
 .point-card{
     height: 100%;
-    min-height: 250px;;
+    min-height: 120px;;
 }
 .point-card h3{
     font-size: 17px;
-    min-height: 40px;
+    min-height: 25px;
     margin: 10px 0px;
 color:#ee2226;
 font-family: Cairo-bold;
