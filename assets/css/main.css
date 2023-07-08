@@ -9,6 +9,9 @@
 h5 {
     font-size: 1.65rem;
 }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 2.5rem;
+}
 strong{
     color:#ee2226;
     font-size:18px;
@@ -85,13 +88,13 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 footer {
     padding: 25px 0;
     color: #fff;
-    background: #000;
+    background: #1a2d39;
 }
 
 .btn:focus,
@@ -102,7 +105,7 @@ footer {
 }
 h2 {
     font-size: 3rem;
-    margin:15px 0px;
+    margin: 10px 0px 40px;
 }
 .navbar-brand {
     padding: 5px 15px;
@@ -150,6 +153,7 @@ nav {
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
+    text-decoration: none;
 }
 
 .navlinks a.active,
