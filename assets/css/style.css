@@ -110,7 +110,8 @@ font-weight: bold;
 }
 .point-card{
     height: 100%;
-    min-height: 120px;;
+    min-height: 120px;
+    padding:10px;
 }
 .point-card h3{
     font-size: 17px;
@@ -132,7 +133,11 @@ font-family: Cairo-bold;
 footer .contact-us{
  font-family: Arial, Helvetica, sans-serif;
 color:#fff;
-font-size:16px;
+    text-align: end;
+    font-size:16px;
+}
+.phone-links{
+    text-align: end;
 }
 .d-flex-center{
     display: grid;
@@ -167,4 +172,33 @@ font-size:13px;
 }
 .fx-2{
     font-size:20px!important;
+}
+.copy-right-text p{
+    color:#fff;
+    text-align: center;
+}
+.copy-right-text p>a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.footer p{
+    color: #fff;
+}
+.d-flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.footer-logo{
+    text-align: end;
+}
+.x30{
+    width: 30px;
+    margin-right: 20px;
+}
+.footer a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
 }

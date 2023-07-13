@@ -64,8 +64,8 @@
   }
     .d-flex-center {
       display: grid;
-      grid-template-columns: 10% 24% 24% 24%;
-      column-gap: 16px;
+      grid-template-columns: 15% 24% 24% 24%;
+      column-gap: 10px;
       text-align: center;
       align-items: start;
       padding: 10px 0px;
@@ -73,9 +73,12 @@
   .table-part p {
     font-size: 8px;
 }
-    strong { 
-      font-size: 14px;
-  }
+strong {
+  font-size: 12px;
+}
+strong>span { 
+  font-size: 9px;
+}
   .video-bg { 
     min-height: 500px;
   }
@@ -98,5 +101,15 @@ nav {
 }
 .point-card { 
   min-height: 100%;
+}
+.table-part-icon i {
+  font-size: 1.5rem;
+  display: contents;
+}
+h5 {
+  font-size: 10px;
+}
+.footer-logo p{
+padding-right:30px;
 }
   }
