@@ -1,43 +1,53 @@
-:root { 
-    font-size: 10px; 
+:root {
+    font-size: 10px;
     --fullGrid: 1 / 1 / -1 / -1;
 }
+
 @font-face {
-    font-family:Cairo;
+    font-family: Cairo;
     src: url(../fonts/Cairo/Cairo.ttf);
 }
+
 @font-face {
-    font-family:Cairo-Black;
+    font-family: Cairo-Black;
     src: url(../fonts/Cairo/Cairo-Black.ttf);
 }
+
 @font-face {
-    font-family:Cairo-Bold;
+    font-family: Cairo-Bold;
     src: url(../fonts/Cairo/Cairo-Bold.ttf);
 }
+
 @font-face {
-    font-family:Cairo-ExtraBold;
+    font-family: Cairo-ExtraBold;
     src: url(../fonts/Cairo/Cairo-ExtraBold.ttf);
 }
+
 @font-face {
-    font-family:Cairo-ExtraLight;
+    font-family: Cairo-ExtraLight;
     src: url(../fonts/Cairo/Cairo-ExtraLight.ttf);
 }
+
 @font-face {
-    font-family:Cairo-Light;
+    font-family: Cairo-Light;
     src: url(../fonts/Cairo/Cairo-Light.ttf);
 }
+
 @font-face {
-    font-family:Cairo-Medium;
+    font-family: Cairo-Medium;
     src: url(../fonts/Cairo/Cairo-Medium.ttf);
 }
+
 @font-face {
-    font-family:Cairo-Regular;
+    font-family: Cairo-Regular;
     src: url(../fonts/Cairo/Cairo-Regular.ttf);
 }
+
 @font-face {
-    font-family:Cairo-SemiBold;
+    font-family: Cairo-SemiBold;
     src: url(../fonts/Cairo/Cairo-SemiBold.ttf);
 }
+
 ::-moz-selection {
     text-shadow: none;
     background: #ee2226;
@@ -45,82 +55,91 @@
 
 ::selection {
     text-shadow: none;
-    background: #ee2226;
+    background: #c2c2c2;
 }
-*{
+
+* {
     font-family: Cairo;
     font-family: 800;
-    letter-spacing: 0.5px!important;
+    letter-spacing: 0.5px !important;
 }
-img{
-    width:100%;
+
+img {
+    width: 100%;
 }
 
 
-.d-flex-center{
+.d-flex-center {
     display: flex;
     align-items: center;
 }
 
-.video-bg { 
-    grid-area: var(--fullGrid); 
+.video-bg {
+    grid-area: var(--fullGrid);
     min-width: 100%;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     min-height: 100%;
     max-height: 600px;
-    object-fit: cover; 
+    object-fit: cover;
     z-index: -1;
 }
 
 .video-bg::-webkit-media-controls {
     display: none !important;
 }
-.intro-text{
+
+.intro-text {
     position: absolute;
-    top:0px;
+    top: 0px;
     left: 0px;
     right: 0px;
 
 }
-.video-overlay { 
-    grid-area: var(--fullGrid); 
+
+.video-overlay {
+    grid-area: var(--fullGrid);
     display: grid;
     justify-content: center;
     align-content: center;
-    text-align: center; 
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.55);
 }
 
-.about-program-text p>strong{
-color:#ee2226;
-font-weight: bold;
+.about-program-text p>strong {
+    color: #ee2226;
+    font-weight: bold;
 }
-.about-program-image{
-    width:100%;  
+
+.about-program-image {
+    width: 100%;
     height: 100%;
     max-height: 500px;
     overflow: hidden;
 }
-#our-program{
+
+#our-program {
     background: url(../img/map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.point-card{
+
+.point-card {
     height: 100%;
     min-height: 120px;
-    padding:10px;
+    padding: 10px 30px;
 }
-.point-card h3{
+
+.point-card h3 {
     font-size: 17px;
     min-height: 25px;
     margin: 10px 0px;
-color:#ee2226;
-font-family: Cairo-bold;
+    color: #ee2226;
+    font-family: Cairo-bold;
 }
-.point-card i{
+
+.point-card i {
     font-size: 30px;
     color: #ee2226;
     background: #ffffff;
@@ -130,16 +149,19 @@ font-family: Cairo-bold;
     width: 50px;
     box-shadow: 1px 1px 10px #dcdcdc;
 }
-footer .contact-us{
- font-family: Arial, Helvetica, sans-serif;
-color:#fff;
+
+footer .contact-us {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
     text-align: end;
-    font-size:16px;
+    font-size: 16px;
 }
-.phone-links{
+
+.phone-links {
     text-align: end;
 }
-.d-flex-center{
+
+.d-flex-center {
     display: grid;
     grid-template-columns: 15% 24% 24% 24%;
     column-gap: 25px;
@@ -147,58 +169,75 @@ color:#fff;
     align-items: start;
     padding: 10px 0px;
 }
-.d-flex-colomn{
-    margin:20px auto; 
+
+.d-flex-colomn {
+    margin: 20px auto;
     display: grid;
-    grid-row:  4;
+    grid-row: 4;
     column-row: 50px;
     text-align: center;
 }
-.border-red{
+
+.border-red {
     border: 1px solid red;
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-.table-part>div{
+
+.table-part>div {
     width: 100%;
     padding: 5px;
 }
-.table-part-icon i{
-font-size: 3rem;
+
+.table-part-icon i {
+    font-size: 3rem;
 }
-.table-part p{
-font-size:13px;
+
+.table-part p {
+    font-size: 13px;
 }
-.fx-2{
-    font-size:20px!important;
+
+.fx-2 {
+    font-size: 20px !important;
 }
-.copy-right-text p{
-    color:#fff;
+
+.copy-right-text p {
+    color: #fff;
     text-align: center;
 }
-.copy-right-text p>a{
+
+.copy-right-text p>a {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
-.footer p{
+
+.footer p {
     color: #fff;
 }
-.d-flex-reverse{
+
+.d-flex-reverse {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
-.footer-logo{
+
+.footer-logo {
     text-align: end;
 }
-.x30{
+
+.x30 {
     width: 30px;
     margin-right: 20px;
 }
-.footer a{
-    color:#fff;
+
+.footer a {
+    color: #fff;
     text-decoration: none;
     font-size: 14px;
+}
+.w-50x{
+    width:50px; 
 }

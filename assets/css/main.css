@@ -69,7 +69,9 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+
 }
+
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
@@ -91,16 +93,21 @@ section {
     padding: 75px 0;
 }
 .footer{
-    padding: 60px 0;
+    padding: 60px 0 20px;
 }
 footer {
     padding: 20px 0;
-
+position: relative;
     color: #fff;
     background-color: #1a2d39;
     background-image: url(../img/shape-4.png);
     background-repeat: no-repeat;
-
+    background-position: left center;
+}
+.footer-svg{
+  position: absolute;
+  top:0px;
+  width: 100%;
 }
 
 .btn:focus,
@@ -187,8 +194,7 @@ nav {
 
 
 #contact-us{
-    width: 100%;
-    height: 100vh; 
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items:center;
@@ -199,27 +205,11 @@ nav {
     text-align: center;
     color: #fff;
   }
-  
-  #contact-us:before{
-    content: '';
-    position:absolute;
-    width: 250px;
-    height: 250px;
-    background: linear-gradient(#ffeb3d,#e91e63 );
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-  }
-  
-  #contact-us:after{
-    content: '';
-    position:absolute;
-    width: 250px;
-    height: 250px;
-    background: linear-gradient(#2196f3,#83d8ff );
-    border-radius: 50%;
-    bottom: 0;
-    right: 0; 
+  .svg-video{
+    position: absolute;
+    width: 100%;
+    bottom: -10%;
+    height: fit-content;
   }
   
   #contact-us .container{
@@ -286,6 +276,7 @@ nav {
     left: 0;
     line-height: 40px;
     padding: 0 10px;
+    font-size: 14px;
     transition: .3s;
   }
   
@@ -346,28 +337,3 @@ nav {
     cursor: pointer;
   }
   
-   
-  
-  @media screen and (max-width:630px) {
-    
-    #contact-us{
-    width: 100%;
-    height: 100%;
-    background-color:#001923;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    
-  } 
-  #contact-us:after{
-    content: '';
-    position:absolute;
-    width: 250px;
-    height: 250px;
-    background: linear-gradient(#2196f3,#83d8ff );
-    border-radius: 50%;
-    bottom:-400px;
-    right: 0;
- 
-  }
-}
