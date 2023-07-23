@@ -345,7 +345,7 @@ header::before {
 
 .country-card .footer-card img {
     width: 50px;
-    height: fit-content;
+    height: auto;
     position: absolute;
     bottom: 100px;
     left: 50px;
