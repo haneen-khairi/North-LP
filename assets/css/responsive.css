@@ -1,115 +1,147 @@
 @media(min-width:768px) {
-    header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
+  header .intro-text {
+    padding-top: 175px;
+    padding-bottom: 100px;
+  }
 
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px; 
-        font-size: 40px;
-        font-style: italic; 
-    }
+  header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-style: italic;
+  }
 
-    header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-size: 44px;
-        font-weight: 700;
-        line-height: 1.4;
-    }
+  header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
 }
+
 @media (max-width: 1000px) {
-    label.logo {
-      font-size: 30px;
-      padding-left: 50px;
-    }
-    .navlinks li a {
-      font-size: 16px;
-    }
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
   }
+
+  .navlinks li a {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 900px) {
-    .checkbtn {
-      display: block;
-    }
-    .navlinks {
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #2c3e50;
-      top: 65px;
-      left: -100%;
-      text-align: center;
-      transition: all 0.5s;
-    }
-    .navlinks li {
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    .navlinks li a {
-      font-size: 20px;
-    }
-    li a:hover,
-    a.active {
-      color: red;
-      background: none;
-    }
-    #check:checked ~ ul {
-      left: 0;
-    }
+  .checkbtn {
+    display: block;
   }
-  @media(max-width:768px) {
-    h5 {
-      font-size: 1.3rem;
+
+  .navlinks {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 65px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
   }
-    .d-flex-center {
-      display: grid;
-      grid-template-columns: 15% 24% 24% 24%;
-      column-gap: 10px;
-      text-align: center;
-      align-items: start;
-      padding: 10px 0px;
+
+  .navlinks li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
   }
+
+  .navlinks li a {
+    font-size: 20px;
+  }
+
+  li a:hover,
+  a.active {
+    color: red;
+    background: none;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+@media(max-width:768px) {
+  h5 {
+    font-size: 1.3rem;
+  }
+
+  .d-flex-center {
+    display: grid;
+    grid-template-columns: 15% 24% 24% 24%;
+    column-gap: 10px;
+    text-align: center;
+    align-items: start;
+    padding: 10px 0px;
+  }
+
   .table-part p {
     font-size: 8px;
-}
-strong {
-  font-size: 12px;
-}
-strong>span { 
-  font-size: 9px;
-}
-  .video-bg { 
+  }
+
+  strong {
+    font-size: 12px;
+  }
+
+  strong>span {
+    font-size: 9px;
+  }
+
+  .video-bg {
     min-height: 500px;
   }
-  header .intro-text .intro-heading { 
+
+  header .intro-text .intro-heading {
     font-size: 30px;
   }
-  .about-program-text{
-    margin:20px auto;
+
+  .about-program-text {
+    margin: 20px auto;
   }
-  p { 
+
+  p {
     line-height: 1.85;
-}
-nav { 
-  justify-content: space-between;
-  flex-direction: row; 
-  padding: 5px 10px;
-}
-.checkbtn{
-  margin-right:15px;
-}
-.point-card { 
-  min-height: 100%;
-}
-.table-part-icon i {
-  font-size: 1.5rem;
-  display: contents;
-}
-h5 {
-  font-size: 10px;
-}
-.footer-logo p{
-padding-right:30px;
-}
   }
+
+  nav {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px 10px;
+  }
+
+  .checkbtn {
+    margin-right: 15px;
+  }
+
+  .point-card {
+    min-height: 100%;
+  }
+
+  .table-part-icon i {
+    font-size: 1.5rem;
+    display: contents;
+  }
+
+  h5 {
+    font-size: 10px;
+  }
+
+  .footer-logo p {
+    padding-right: 30px;
+  }
+  .svg-video{
+    display: none;
+  }
+  .mobile-none{
+    display: none;
+  }
+  .mobile-none-offset-1{
+    margin: 0px!important;
+  } 
+}
