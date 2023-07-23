@@ -238,40 +238,47 @@ footer .contact-us {
     text-decoration: none;
     font-size: 14px;
 }
-.w-50x{
-    width:50px; 
+
+.w-50x {
+    width: 50px;
 }
-.footer .modern-logo{
+
+.footer .modern-logo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
-.footer .modern-logo div img{
+
+.footer .modern-logo div img {
     width: 30px;
-    margin:3px;
+    margin: 3px;
 }
-.modern-logo-main{
+
+.modern-logo-main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top:-25px;
+    margin-top: -25px;
 }
-.modern-logo-main div img{
+
+.modern-logo-main div img {
     width: 160px;
-    margin:3px;
+    margin: 3px;
 }
-header::before{
+
+header::before {
     content: " ";
     background-color: #0000006b;
-    width: 100%; 
+    width: 100%;
     height: 100%;
     position: absolute;
     max-height: 600px;
     top: 0px;
 }
-.banner-header{
+
+.banner-header {
     width: 100%;
     max-width: 100%;
     padding: 20px;
@@ -281,19 +288,23 @@ header::before{
     color: #fff;
     text-align: center;
 }
-.banner-header .banner-text-first{ 
-    border-right:none;
-padding:10px;
+
+.banner-header .banner-text-first {
+    border-right: none;
+    padding: 10px;
 
 }
-.banner-header .banner-text{
-padding:10px;
-border-right:1.5px solid #b8b8b8;
+
+.banner-header .banner-text {
+    padding: 10px;
+    border-right: 1.5px solid #b8b8b8;
 }
-.banner-header h3{
+
+.banner-header h3 {
     font-weight: bold;
 }
-.country-card{
+
+.country-card {
     /* background: #192e39; */
     color: #fff;
     height: max-content;
@@ -301,35 +312,184 @@ border-right:1.5px solid #b8b8b8;
     position: relative;
     border-width: thick;
     margin: 30px 0px;
-    border: 5px solid transparent ;
+    border: 5px solid transparent;
     border-bottom-color: #192e39;
     border-top-color: red;
     border-radius: 5px;
 }
-.country-collage{
+.country-card-custom {
+    /* background: #192e39; */
+    color: #fff;
+    height: max-content;
+    width: 75%;
+    position: relative;
+    border-width: thick;
+    margin: 30px 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #192e39;
+    border-top-color: red;
+    border-radius: 5px;
+}
+
+.country-collage {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.country-card img{
-    width:100%;
-    height:100%;
+
+.country-card img {
+    width: 100%;
+    height: 100%;
 }
-.country-card .footer-card img{
+
+.country-card .footer-card img {
     width: 50px;
     height: fit-content;
     position: absolute;
     bottom: 100px;
     left: 50px;
 }
-.country-card .footer-card p{
-    color: #192e39!important;
-  text-align: center;
-  
+
+.country-card .footer-card p {
+    color: #192e39 !important;
+    text-align: center;
+
 }
+
 .country-card .footer-card {
     text-align: center;
     padding: 15px;
-    color: #192e39!important;
+    color: #192e39 !important;
+}
+
+.country-list-main {
+    background-color: #192e39;
+    background-image: url(../img/map-cta-countries.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px grey;
+
+}
+.country-list-visa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding:50px;
+}
+.country-visa h4{
+    font-size: 24px;
+    text-align: end;
+}
+.country-visa h5{
+    font-size: 20px;
+    margin:10px 0px;
+    text-align: end;
+}
+.country-visa h5:last-child{
+    margin:20px 0px;
+
+color:rgb(182, 182, 182);
+}
+.title-head{
+    text-align: center;
+}
+.accordion .accordion-item {
+    border: 1px solid #e5e5e5;
+    margin: 15px 0px;
+    padding: 5px;
+  }
+  .accordion .accordion-item button[aria-expanded=true] {
+    border-bottom: 1px solid #e42125;
+  }
+  .accordion button {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .accordion button:hover, .accordion button:focus {
+    cursor: pointer;
+    color: #192e39;
+  }
+  .accordion button:hover::after, .accordion button:focus::after {
+    cursor: pointer;
+    color: #192e39;
+    border: 1px solid #192e39;
+  }
+  .accordion button .accordion-title {
+    padding: 20px;
+    font-size:16px;
+    color:#000;
+  }
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  .accordion button[aria-expanded=true] {
+    color: #192e39;
+  }
+  .accordion button[aria-expanded=true] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded=true] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px;
+    text-align: end;
   }
