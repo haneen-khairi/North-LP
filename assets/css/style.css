@@ -264,17 +264,17 @@ footer .contact-us {
 }
 
 .modern-logo-main div img {
-    width: 160px;
+    width: 50%;
     margin: 3px;
 }
 
 header::before {
     content: " ";
-    background-color: #0000006b;
+    background-color: #86868626;
     width: 100%;
     height: 100%;
     position: absolute;
-    max-height: 600px;
+    max-height: 100%;
     top: 0px;
 }
 
@@ -317,6 +317,7 @@ header::before {
     border-top-color: red;
     border-radius: 5px;
 }
+
 .country-card-custom {
     /* background: #192e39; */
     color: #fff;
@@ -347,7 +348,7 @@ header::before {
     width: 50px;
     height: auto;
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     left: 50px;
 }
 
@@ -375,40 +376,48 @@ header::before {
     box-shadow: 1px 1px 10px grey;
 
 }
-.country-list-visa{
+
+.country-list-visa {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
     justify-content: center;
-    padding:50px;
+    padding: 50px;
 }
-.country-visa h4{
+
+.country-visa h4 {
     font-size: 24px;
     text-align: end;
 }
-.country-visa h5{
+
+.country-visa h5 {
     font-size: 20px;
-    margin:10px 0px;
+    margin: 10px 0px;
     text-align: end;
 }
-.country-visa h5:last-child{
-    margin:20px 0px;
 
-color:rgb(182, 182, 182);
+.country-visa h5:last-child {
+    margin: 20px 0px;
+
+    color: rgb(182, 182, 182);
 }
-.title-head{
+
+.title-head {
     text-align: center;
 }
+
 .accordion .accordion-item {
     border: 1px solid #e5e5e5;
     margin: 15px 0px;
     padding: 5px;
-  }
-  .accordion .accordion-item button[aria-expanded=true] {
+}
+
+.accordion .accordion-item button[aria-expanded=true] {
     border-bottom: 1px solid #e42125;
-  }
-  .accordion button {
+}
+
+.accordion button {
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -423,22 +432,26 @@ color:rgb(182, 182, 182);
     border: none;
     background: none;
     outline: none;
-  }
-  .accordion button:hover, .accordion button:focus {
+}
+
+.accordion button:hover, .accordion button:focus {
     cursor: pointer;
     color: #192e39;
-  }
-  .accordion button:hover::after, .accordion button:focus::after {
+}
+
+.accordion button:hover::after, .accordion button:focus::after {
     cursor: pointer;
     color: #192e39;
     border: 1px solid #192e39;
-  }
-  .accordion button .accordion-title {
+}
+
+.accordion button .accordion-title {
     padding: 20px;
-    font-size:16px;
-    color:#000;
-  }
-  .accordion button .icon {
+    font-size: 16px;
+    color: #000;
+}
+
+.accordion button .icon {
     display: inline-block;
     position: absolute;
     top: 30px;
@@ -447,8 +460,9 @@ color:rgb(182, 182, 182);
     height: 22px;
     border: 1px solid;
     border-radius: 22px;
-  }
-  .accordion button .icon::before {
+}
+
+.accordion button .icon::before {
     display: block;
     position: absolute;
     content: "";
@@ -457,8 +471,9 @@ color:rgb(182, 182, 182);
     width: 10px;
     height: 2px;
     background: currentColor;
-  }
-  .accordion button .icon::after {
+}
+
+.accordion button .icon::after {
     display: block;
     position: absolute;
     content: "";
@@ -467,29 +482,162 @@ color:rgb(182, 182, 182);
     width: 2px;
     height: 10px;
     background: currentColor;
-  }
-  .accordion button[aria-expanded=true] {
+}
+
+.accordion button[aria-expanded=true] {
     color: #192e39;
-  }
-  .accordion button[aria-expanded=true] .icon::after {
+}
+
+.accordion button[aria-expanded=true] .icon::after {
     width: 0;
-  }
-  .accordion button[aria-expanded=true] + .accordion-content {
+}
+
+.accordion button[aria-expanded=true]+.accordion-content {
     opacity: 1;
     max-height: 9em;
     transition: all 200ms linear;
     will-change: opacity, max-height;
-  }
-  .accordion .accordion-content {
+}
+
+.accordion .accordion-content {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
     transition: opacity 200ms linear, max-height 200ms linear;
     will-change: opacity, max-height;
-  }
-  .accordion .accordion-content p {
+}
+
+.accordion .accordion-content p {
     font-size: 15px;
     font-weight: 300;
     padding: 10px 20px;
     text-align: end;
-  }
+}
+
+.contact-containers {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: #afb1b3;
+}
+
+.contact-wrapper {
+    width: 100%;
+height:100%;
+}
+
+.contact-heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    color: #000000;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form-group {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 0px 50px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+}
+
+.form-group .contact-input {
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(217, 217, 217);
+
+
+
+
+    &:hover {
+        border-bottom: 3px solid #192e39;
+
+    }
+
+    &:focus {
+        border-bottom: 3px solid #F20732;
+    }
+}
+
+.contact-input {
+
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px 80px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+
+
+    &:not(:last-child) {
+        border-bottom: 3px solid rgb(217, 217, 217);
+    }
+
+
+
+    &:not(:last-child):hover {
+        border-bottom: 3px solid #192e39;
+
+    }
+
+    &:not(:last-child):focus {
+        border-bottom: 3px solid #F20732;
+    }
+
+
+}
+
+.message {
+    padding-bottom: 100px;
+}
+
+.card-about{
+    padding: 25px 15px;
+    text-align: center;
+    margin-top: 40px;
+    border: 5px solid transparent;
+    border-top: 5px solid #e42125;
+    border-bottom: 5px solid #000;
+    height: 260px;
+    background: #fafafa;
+}
+.color-red{
+    color:#e42125;
+}
+.card-about h4{
+    color:#e42125;
+    font-size:16px;
+    font-weight: bold;
+}
+.img-bg{
+    width: 100%;
+    height: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    object-position: bottom;
+}
